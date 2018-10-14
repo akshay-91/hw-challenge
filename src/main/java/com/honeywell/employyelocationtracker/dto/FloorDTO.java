@@ -1,10 +1,7 @@
 package com.honeywell.employyelocationtracker.dto;
 
-import org.springframework.data.annotation.Id;
-
 public class FloorDTO {
 
-@Id
 private Integer floorId;
 
 private String floorName;
